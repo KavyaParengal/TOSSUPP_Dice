@@ -24,7 +24,7 @@ class _TossupHomePageState extends State<TossupHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('TOSSUP',style: TextStyle(
+        title: const Text('TOSSUP',style: TextStyle(
           fontWeight: FontWeight.w800,
           color: Colors.white,
           fontSize: 24
